@@ -23,5 +23,21 @@ No, it would not work.  In order for a mathematical operation to work on a strin
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 
-The '.times'method is not the same as '*'.  While '*' can be used to multiply strings, it will return the result as one long string.  The '.times' method will execute
-a command x number of times and will return the result each as its own string.  
+The '.times'method is not the same as '*'.  While '*' can be used to multiply strings and numbers, it will only return the result of the equation.
+i.e.  puts 2*2 will return 4. OR  puts "dog" * 2 will return dogdog.
+
+The '.times' method will execute a command x number of times. This does not always mean that the .times method will return a string. 
+i.e.  The code:   2.times do 
+                        Puts "dog"
+                    end
+
+
+i.e.  The code:     account_balance = 0
+                    5.times do
+                       count = account_balance+5
+                       account_balance = count
+                       puts count
+                       end
+The first example will return the string "dog" two times.
+The second example will return integers counting up by 5, for as many times as it is told.  
+In this case, Ruby will execute the code 5 times and each time it will count up by 5 starting from 0.

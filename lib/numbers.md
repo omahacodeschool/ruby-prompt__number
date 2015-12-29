@@ -34,7 +34,7 @@ example:
 / (division)
 /= (combined operator)
 ** (exponent)
-% (modulus)
+% (modulus- Divides left # by right # and returns remainder)
 .to_i (converts float to integer)
 .to_f (converts integer to float)
 == (asks if true)

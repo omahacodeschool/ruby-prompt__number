@@ -31,6 +31,11 @@ example:
 -= (combined operator)
 * (multiplication)
 *= (combined operator)
+
+    x=2
+    x*=3 (translation x=x*3)
+    now x=6
+    
 / (division)
 /= (combined operator)
 ** (exponent)

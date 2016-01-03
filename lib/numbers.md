@@ -68,9 +68,10 @@ It is only a collection of characters to your computer.
 You will need to convert the string to an integer and also possibly a float
 
 x="20"
-x.to_i.to_f/3
+x.to_f/3
 
 will give you the quotient
+ 
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 

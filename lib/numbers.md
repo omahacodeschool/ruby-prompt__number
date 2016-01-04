@@ -26,6 +26,10 @@ With strings the + operator will return the strings joined together.
 It wont work if you leave "20" as a string. Simply trying to multiply "20"*5 returns 2020202020 (the string "20" five times).
 You need to run the .to_i method on the string first so it treats the string as an interger. "20".to_i*5  returns 100
 
+If you are seeking the exact quotient of "20" divide by three you'd need to trun the string into a float us the .to_f method and then / 3.
+
+"20".to_f / 3
+
 # What is the purpose of the `times` operation? Is that the same as `*`?
 
 * is the operator for multiplication

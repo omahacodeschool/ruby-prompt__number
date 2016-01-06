@@ -11,6 +11,8 @@
 Research and then write answers to the following questions in **lib/numbers.md**.
 
 - What are the different kinds of numbers in Ruby?
+-  
+
 - What are some common operations and comparisons you would perform on numbers?
 - What is the difference between the `+` operation on a number versus on a String?
 - If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?

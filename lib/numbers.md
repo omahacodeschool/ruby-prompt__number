@@ -17,7 +17,9 @@ The '+' operation works as a sum for numbers.  For Strings it simply adds the te
 
 # If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?
 
-No it wont work. Ruby doesn't know how to add a number to a string.  You have to tell Ruby that the string is an actual number with the .to_i operation first. So it would be '20' .to_i / 4
+No it wont work. Ruby doesn't know how to add a number to a string.  You have to tell Ruby that the string is an actual number with the .to_i 
+operation first. So it would be '20' .to_i / 4
+If you have string '20' to divide it by 3 the code i would run would be '20'.to_i / 3
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 

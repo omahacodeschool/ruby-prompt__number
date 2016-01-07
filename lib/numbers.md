@@ -22,6 +22,8 @@ If you add (+) two strings together, you’ll basically get the two strings mash
 
 Sometimes it will work. You can multiply a string. If you took your string “20” and multiplied it by four (“20” * 4) you would get “20202020.” But you couldn’t multiply the number 4 by your string “20” (4 * “20”). That will give you an error since “20” as a string is the same as any other group of characters acting as a string and you couldn’t get an answer for 4 multiplied by the string “cat,” for example. Division won’t work, either. As far as I can tell, you can only add and multiply strings. There’s always the option to convert string digits to integers (.to_i) and perform mathematical operations on them, though. 
 
+Ah, right. I should have said “.to_f” is an option as well. If you use .to_i on a string “20” and divided it by 3, it’s going to give you a rounded-down answer: 6. If you want an accurate answer, you’d want to convert to a float.
+
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 

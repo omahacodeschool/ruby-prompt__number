@@ -17,7 +17,7 @@ With the "+" operation on a number, ruby interprets that as the addition operati
 
 # If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?
 
-A mathematical operation can be used on a string, however, not with the expected results. For example the string "20" multiplied by 5 would return 2020202020. In order to make the previous example return the expected answer, you would need to convert the string to an integer using the ".to_i" command.
+In the instance you mentioned converting the string '"20"' to an integer then dividing by three would provide an inaccurate result as it would only give the whole number answer of 6. In order to have an accurate decimal answer you would need to convert the string into a float by using ".to_f".
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 

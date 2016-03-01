@@ -12,6 +12,16 @@ Research and then write answers to the following questions in **lib/numbers.md**
 
 - What are the different kinds of numbers in Ruby?
 - What are some common operations and comparisons you would perform on numbers?
+- Given the operations above (especially the arithmetic operations), what is the difference between conducting them on integers as opposed to on floats or some combination of integers and floats? What general rules can you rely on? Does the type of result change based on the type of numbers you provide? For test cases, consider the following:
+    - `7 / 3`
+    - `7.0 / 3.0`
+    - `7.0 / 3`
+    - `7 / 3.0`
+- Similarly, for equality checking, does type matter? What is the result of each of these, and what rules can you generally rely on?
+    - `7 == 7.0`
+    - `7.0 == 7`
+    - `7 == 7`
+    - `7.0 == 7.0`
 - What is the difference between the `+` operation on a number versus on a String?
 - If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?
 - What is the purpose of the `times` operation? Is that the same as `*`?

@@ -9,8 +9,8 @@ Float (decimal numbers) and Fixnum (integers)
 
 # What are some common operations and comparisons you would perform on numbers?
 
-Operations: addition (+), subtraction (-), multiplication (*), to the power (**), division (/)
-            modulo (%)
+Operations: addition (+), subtraction (-), multiplication (*), to the power,
+(**), division (/),modulo (%)
 
 Comparisons : greater than (>), greater than or equal to (>=), less than (<), 
               less than or equal to (<=)
@@ -45,4 +45,5 @@ example:
 2.times {|i| puts i}  #=> 0
                           1
 
-'times' and '*' are not the same thing. '*' is a operation used for multiplacation of numbers or strings
+'times' and '*' are not the same thing. 
+'*' is a operation used for multiplacation of numbers or strings

@@ -5,20 +5,20 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 
 # What are the different kinds of numbers in Ruby?
 
-Replace me with your response...
+	The Two types of numbers used regularly are Fixnum (integer) and Float.
 
 # What are some common operations and comparisons you would perform on numbers?
 
-Replace me with your response...
+	Some common comparison operators are ==,!=, <, >, >=, and <=. 
 
 # What is the difference between the `+` operation on a number versus on a String?
 
-Replace me with your response...
+	With numbers the + sign will use math and add the values together while + sign to strings will combine two strings into one string. 
 
 # If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?
 
-Replace me with your response...
+No, the string will need to be converted as an integer such as “20”.to_i
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 
-Replace me with your response...
+	The “times” operation is used for loops and the * is math operator for multiplication. 

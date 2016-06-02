@@ -1,1 +1,2 @@
-puts "Eric" * 7
+puts 3 * 7
+

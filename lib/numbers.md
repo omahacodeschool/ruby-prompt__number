@@ -9,7 +9,8 @@ There are two primary types of numbers: 'fixnum', which are integers (whole numb
 
 # What are some common operations and comparisons you would perform on numbers?
 
-+ (addition), - (subtraction), * (multiplication), / (division), ** (exponents), % (modulo)
+operations: + (addition), - (subtraction), * (multiplication), / (division), ** (exponents), % (modulo)
+comparisons: < (less than), > (greater than), == (equal to)
 
 # What is the difference between the `+` operation on a number versus on a String?
 
@@ -23,6 +24,8 @@ To perform a mathematical operation, the string would first need to be converted
 
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
+The times method simply allows us to repeat a specified block of code the prescribed number of "times".
 
-Used with the number classes, the times operation performs multiplication. The * is the same - i.e., how this would be accomplished.
+This is very different than the * operation.
+Used with the number classes, the * operation performs multiplication.
 Used with strings, * will repeat the preceding string the number of times indicated after the *.

@@ -4,21 +4,28 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 ---
 
 # What are the different kinds of numbers in Ruby?
+There are two primary types of numbers: 'fixnum', which are integers (whole numbers without decimal points), and 'float', which is a number with a decimal point.
 
-Replace me with your response...
 
 # What are some common operations and comparisons you would perform on numbers?
 
-Replace me with your response...
+operations: + (addition), - (subtraction), * (multiplication), / (division), ** (exponents), % (modulo)
+comparisons: < (less than), > (greater than), == (equal to)
 
 # What is the difference between the `+` operation on a number versus on a String?
 
-Replace me with your response...
+On a string, the + operation will combine strings, returning a composite of the strings entered.
+On a number, the + operation will perform addition, returning the resulting calculation.
 
 # If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?
 
-Replace me with your response...
+It will not work. It is not possible to perform mathematical operations on strings. 
+To perform a mathematical operation, the string would first need to be converted to either a fixnum (using .to_i) or a float (using .to_f).
+
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
+The times method simply allows us to repeat a specified block of code the prescribed number of "times".
 
-Replace me with your response...
+This is very different than the * operation.
+Used with the number classes, the * operation performs multiplication.
+Used with strings, * will repeat the preceding string the number of times indicated after the *.

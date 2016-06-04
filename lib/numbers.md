@@ -18,7 +18,7 @@ The + operations on a number will add the two (or more) numbers on the opposite 
 
 # If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?
 
-You cannot perform a mathematical operation on "20" because that sequence is not an integer or a float.  It is a string, and thus is not a number.  It is a sequence of characters that represents something.  To make it an integer, you would have to remove the quoation mark, and to make it a float, I would remove the quotation marks and add a decimal point.  Then normal mathematical operators would work on it!  But it would no longer be a string.
+You cannot perform a mathematical operation on "20" because that sequence is not an integer or a float.  It is a string, and thus is not a number.  It is a sequence of characters that represents something.  To make it an integer, you would have to remove the quotation marks, and to make it a float, there is a method to_f that converts strings to floats.  The method would make a string an integer with to_i.  Then normal mathematical operators would work on it!  But it would no longer be a string.
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 
